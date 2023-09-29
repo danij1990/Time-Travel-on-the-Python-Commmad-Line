@@ -31,7 +31,7 @@ def time_travel():
             print("You have landed on a spaceship.")
             explore_future()
         elif choice == '2':
-            print("You venture deeper into the forest and encounter a wild animal.")
+            print("You go deeper into the forest and encounter an animal.")
             encounter_past()
         elif choice == '3':
             print("You are whisked off to a mountain range.")
@@ -43,7 +43,7 @@ def time_travel():
             print("Invalid choice. Please try again.")
 
     # Printing congratulations when the game is completed
-    print("Congratulations! You have answered all the questions and completed the game.")
+    print("Congratulations! all answers are correct.")
 
 
 # Function to explore the future
@@ -64,7 +64,7 @@ def explore_future():
     elif choice.lower() == 'b':
         print("You leave the cave and continue your time-traveling adventure.")
     elif choice.lower() == 'c':
-        print("You found an old, dusty book. It has some interesting ancient stories.")
+        print("You found an old book, It has some interesting stories.")
     else:
         print("Invalid choice. Please try again.")
 
