@@ -51,7 +51,7 @@ Spread the Word: Share the Time-Travel-on-the-Python-Commmad-Line with your frie
 Tweet about the game: Time Travel on the Python Commmad Line
 ### Flowchart
 
-![Flowchart](URL_of_the_image)
+![Flowchart](assets/images/Flowchart.png)
 
 # Time Travel on the Python Commmad Line
 
@@ -168,7 +168,15 @@ Explain how to run and play the game.
 ## Deployment
 
 ### Version Control
+The site was created using Codeanywhere code editor and pushed to github to the remote repository ‘Time-Travel-on-the-Python-Commmad-Line’.
 
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
 ### Deployment to 
 
 ### Clone the Repository 
