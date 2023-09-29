@@ -35,21 +35,110 @@ By integrating these features into the Time Warp Adventure Game, we aim to deliv
 
 **Join Us:**
 
-Ready to embark on an exciting journey through time? Join the Time Warp Adventure Game community and become a part of our time-traveling adventure!
+Ready to embark on an exciting journey through time? Join the Time Travel on the Python Commmad Line community and become a part of our time-traveling adventure!
 
 How to Get Involved
 Contribute to the Codebase: If you're passionate about game development, Python programming, or have creative ideas to enhance the gameplay, consider contributing to our open-source project on GitHub. Your contributions are highly valued!
 
-Fork the repository: Time Travel on the Python Commmad Line
+Fork the repository: Time-Travel-on-the-Python-Commmad-Line
 Make your improvements and enhancements.
 Submit a pull request to share your changes with the community.
 Report Bugs and Issues: Encountered a bug or have a suggestion for improvement? Let us know by opening an issue on GitHub. Your feedback helps us make the game better!
 
 Open a New Issue
-Spread the Word: Share the Time Travel on the Python Commmad Line with your friends, family, and fellow gamers! Help us grow our community and bring more adventurers into the time-traveling fold.
+Spread the Word: Share the Time-Travel-on-the-Python-Commmad-Line with your friends, family, and fellow gamers! Help us grow our community and bring more adventurers into the time-traveling fold.
 
 Tweet about the game: Time Travel on the Python Commmad Line
-### Flow Chart
+### Flowchart
+
+![Flowchart](URL_of_the_image)
+
+# Time Travel on the Python Commmad Line
+
+## Description
+
+This is the flow of the game:
+
++------------------+
+| Start the Game   |
++------------------+
+         |
+         V
++------------------+
+| Print Welcome    |
+| and Instructions |
++------------------+
+         |
+         V
++------------------+
+| Display Choices  |
+| and Get User      |
+| Input            |
++------------------+
+         |
+         V
++------------------+
+| Process User     |
+| Choice           |
++------------------+
+         |
+         V
++------------------+
+| Explore Future   |
+| Option           |
++------------------+
+         |
+         V
++------------------+
+| Display Question |
+| and Get User      |
+| Answer           |
++------------------+
+         |
+         V
++------------------+
+| Evaluate Answer  |
+| and Display      |
+| Outcome          |
++------------------+
+         |
+         V
++------------------+
+| Continue the     |
+| Game             |
++------------------+
+         |
+         V
++------------------+
+| ... (Other Game  |
+| Options and      |
+| Branches)        |
++------------------+
+         |
+         V
++------------------+
+| Congratulate     |
+| the Player       |
++------------------+
+         |
+         V
++------------------+
+| End the Game     |
++------------------+
+
+## Usage
+
+Explain how to run and play the game.
+
+
+## Apps Used
+
+| App           | Description                |
+| ------------- | -------------------------- |
+| Git           | Version control system     |
+| GitHub        | Code hosting platform      |
+| CodeAnywhere  | Online code editor         |
+| Heroku        | Deployment platform        |
 
 
 
