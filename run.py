@@ -44,3 +44,84 @@ def time_travel():
 
     # Printing congratulations when the game is completed
     print("Congratulations! You have answered all the questions and completed the game.")
+
+
+# Function to explore the future
+def explore_future():
+    print("You find a safe on the spaceship.")
+    print("Do you want to open the safe?")
+    print("A. Yes")
+    print("B. No")
+    print("C. Continue to search")
+
+    choice = input("Enter your choice (A/B/C): ")
+
+    if choice.lower() == 'a':
+        if ask_question1("What goes up but must come down?", "A"):
+            print("Congratulations! You found a valuable treasure.")
+        else:
+            print("You answered the riddle incorrectly. Game over.")
+    elif choice.lower() == 'b':
+        print("You leave the cave and continue your time-traveling adventure.")
+    elif choice.lower() == 'c':
+        print("You found an old, dusty book. It has some interesting ancient stories.")
+    else:
+        print("Invalid choice. Please try again.")
+
+
+# Function to encounter the past
+def encounter_past():
+    print("You have landed beside a fierce dinosaur!")
+    print("What do you want to do?")
+    print("A. Fight the animal")
+    print("B. Try to run away")
+
+    choice = input("Enter your choice (A/B): ")
+
+    if choice.lower() == 'a':
+        if ask_question2("What belongs to you, but other people use it more than you do?", "B"):
+            print("You fought the animal and managed to defeat it.")
+        else:
+            print("You answered the riddle incorrectly. Game over.")
+    elif choice.lower() == 'b':
+        print("You try to run away, but the animal catches you.")
+        print("Game over. You were not able to escape.")
+
+
+# Function for the "stay in the present day" option
+def today():
+    print("You are near the top of a mountain!")
+    print("What do you want to do?")
+    print("A. Keep Climbing")
+    print("B. Try to run away")
+
+    choice = input("Enter your choice (A/B): ")
+
+    if choice.lower() == 'a':
+        if ask_question3("What is the world's largest mountain?", "A"):
+            print("You reached the top of Everest.")
+        else:
+            print("You answered the riddle incorrectly. Game over.")
+    elif choice.lower() == 'b':
+        print("You had to be rescued by the locals.")
+        print("Game over. You were not able to escape.")
+
+
+
+# Function for the "your birthday" option
+def your_birthday():
+    print("Would you rather")
+    print("A. Stay at the party?")
+    print("B. Choose to return home?")
+
+    choice = input("Enter your choice (A/B): ")
+
+    if choice.lower() == 'a':
+        if ask_question4("What has keys but can't open locks?", "B"):
+            print("Enjoy your party.")
+        else:
+            print("You answered the riddle incorrectly. Game over.")
+    elif choice.lower() == 'b':
+        print("The party is over.")
+        print("Game over. You were not able to escape.")
+
