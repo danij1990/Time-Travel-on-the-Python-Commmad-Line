@@ -107,7 +107,6 @@ def today():
         print("Game over. You were not able to escape.")
 
 
-
 # Function for the "your birthday" option
 def your_birthday():
     print("Would you rather")
@@ -125,3 +124,50 @@ def your_birthday():
         print("The party is over.")
         print("Game over. You were not able to escape.")
 
+
+# Question function 1 to ask a question with multiple choices
+def ask_question1(question, correct_choice):
+    print(question)
+    print("Choices:")
+    print("A. A Plane")
+    print("B. A Cat")
+    print("C. A Dog")
+    user_choice = input("Your choice (A/B/C): ").lower()
+    return user_choice == correct_choice.lower()
+
+
+# Question function 2 to ask a question with multiple choices
+def ask_question2(question, correct_choice):
+    print(question)
+    print("Choices:")
+    print("A. Your Heart")
+    print("B. Your Name")
+    print("C. Your Money")
+    user_choice = input("Your choice (A/B/C): ").lower()
+    return user_choice == correct_choice.lower()
+
+
+# Question function 3 to ask a question with multiple choices
+def ask_question3(question, correct_choice):
+    print(question)
+    print("Choices:")
+    print("A. Everest")
+    print("B. K2")
+    print("C. Mount Fuji")
+    user_choice = input("Your choice (A/B/C): ").lower()
+    return user_choice == correct_choice.lower()
+
+
+# Question function 4 to ask a question with multiple choices
+def ask_question4(question, correct_choice):
+    print(question)
+    print("Choices:")
+    print("A. Map")
+    print("B. Piano")
+    print("C. Glasses")
+    user_choice = input("Your choice (A/B/C): ").lower()
+    return user_choice == correct_choice.lower()
+
+
+if __name__ == "__main__":
+    time_travel()
