@@ -1,6 +1,26 @@
 import random  # Importing the random module for generating random choices
 
 
+
+name = input("Enter your name: ")
+
+# Validate and get a valid age
+while True:
+    age = input("Enter your age: ")
+
+    if age.isdigit():
+        age = int(age)
+        break
+    else:
+        print("Please enter a valid number for age.")
+
+print(f"Hello {name}! You are {age} years old.")
+
+
+
+import random  # Importing the random module for generating random choices
+
+
 # Function for the main time travel game
 def time_travel():
     # Printing welcome and instructions
@@ -62,7 +82,7 @@ def explore_future():
         else:
             print("You answered the riddle incorrectly. Game over.")
     elif choice.lower() == 'b':
-        print("You leave the cave and continue your time-traveling adventure.")
+        print("You leave the ship and continue your time-traveling adventure.")
     elif choice.lower() == 'c':
         print("You found an old book, It has some interesting stories.")
     else:
