@@ -1,8 +1,13 @@
 import random  # Importing the random module for generating random choices
 
+# Validate and get a valid Name
+while True:
+    name = input("Enter your name: ")
 
-
-name = input("Enter your name: ")
+    if name.isalpha():
+        break
+    else:
+        print("Please enter a valid name with alphabetic characters only.")
 
 # Validate and get a valid age
 while True:
