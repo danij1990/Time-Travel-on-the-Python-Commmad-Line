@@ -1,4 +1,9 @@
 import random
+# import pyfiglet module 
+import pyfiglet 
+
+result = pyfiglet.figlet_format("Time Travel", font = "digital" ) 
+print(result) 
 
 name = input("Enter your name: ")
 
