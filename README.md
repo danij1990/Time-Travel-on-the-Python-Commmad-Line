@@ -57,74 +57,6 @@ Tweet about the game: Time Travel on the Python Commmad Line
 
 ## Description
 
-This is the flow of the game:
-
-+------------------+
-| Start the Game   |
-+------------------+
-         |
-         V
-+------------------+
-| Print Welcome    |
-| and Instructions |
-+------------------+
-         |
-         V
-+------------------+
-| Display Choices  |
-| and Get User      |
-| Input            |
-+------------------+
-         |
-         V
-+------------------+
-| Process User     |
-| Choice           |
-+------------------+
-         |
-         V
-+------------------+
-| Explore Future   |
-| Option           |
-+------------------+
-         |
-         V
-+------------------+
-| Display Question |
-| and Get User      |
-| Answer           |
-+------------------+
-         |
-         V
-+------------------+
-| Evaluate Answer  |
-| and Display      |
-| Outcome          |
-+------------------+
-         |
-         V
-+------------------+
-| Continue the     |
-| Game             |
-+------------------+
-         |
-         V
-+------------------+
-| ... (Other Game  |
-| Options and      |
-| Branches)        |
-+------------------+
-         |
-         V
-+------------------+
-| Congratulate     |
-| the Player       |
-+------------------+
-         |
-         V
-+------------------+
-| End the Game     |
-+------------------+
 
 ## Usage
 
@@ -187,7 +119,14 @@ The following git commands were used throughout development to push code to the 
 
 
 
-## Credits and Thank You
+## Acknowledgments
+
+Special thanks to:
+
+- [Geek for Geeks](https://www.geeksforgeeks.org/) for the `pyfiglet` module.
+- [Jamie O'Neill](https://www.linkedin.com/in/jamie2023/) (Code Institute cohort lead) for guidance and support throughout the project.
+
+
 
 
 ## Bugs
