@@ -79,8 +79,8 @@ def time_travel():
         for i, question_info in enumerate(questions, start=1):
             print(f"\nYou encounter a time portal that reads: '{question_info['adventure_route']}'")
             print(f"What do you want to do for question {i}?")
-            print("A. Enter the time portal")
-            print("B. Skip and move to the next question")
+            print("A. Continue, Answers the questions to beat the portal ")
+            print("B. Try to escape, but risk getting stuck")
             
             portal_choice = input("Your choice (A/B): ").upper()
 
@@ -93,8 +93,8 @@ def time_travel():
                     break
 
             elif portal_choice == 'B':
-                print("You decide to skip the time portal and move to the next question.")
-                break
+                print("You are stuck in the portal, Game over.")
+                return
 
             else:
                 print("Invalid choice. Game over.")
