@@ -128,12 +128,29 @@ Enjoy the "Time Travel Game" and have fun solving riddles, making choices, and e
 This "How to Play" section provides users with a step-by-step guide on how to start and enjoy your game, making it easy for them to understand the gameplay mechanics and objectives.
 ## Apps Used
 
+### Technologies Used
+
 | App           | Description                |
 | ------------- | -------------------------- |
 | Git           | Version control system     |
 | GitHub        | Code hosting platform      |
 | CodeAnywhere  | Online code editor         |
 | Heroku        | Deployment platform        |
+
+
+## Technology Used
+
+This project is built using a combination of technologies to facilitate development, version control, and deployment. The following tools and platforms were used:
+
+- **Python**: The core programming language for building the project. Python is known for its simplicity and versatility, making it a great choice for a wide range of applications.
+
+- **Git and GitHub**: Version control and collaborative development were managed using Git, a distributed version control system, and GitHub, a popular platform for hosting and collaborating on Git repositories. This allowed for seamless collaboration and easy tracking of changes.
+
+- **Heroku**: The project is deployed on Heroku, a cloud platform that enables easy deployment, scaling, and management of web applications. Heroku provides a convenient way to host and showcase your project to the world.
+
+- **CodeAnywhere**: CodeAnywhere is an integrated development environment (IDE) that provides a cloud-based coding environment accessible from anywhere. It was used for development, coding, and testing during the project's lifecycle.
+
+These technologies collectively ensure efficient development, version control, and deployment of this project.
 
 
 
@@ -227,11 +244,22 @@ These tests were conducted to ensure the "Time Travel Game" works correctly and 
 
 
 
-### Technologies Used
 
 
+## User Experience
 
-### Key Features
+- __Target Audience__
+
+  - This game is for all ages and can be played by anyone who wishes to take on the challange. 
+
+
+ - __Players__
+
+1.	As a **user** I can **Answers the provided questions** to **complete the game**
+2.	As a **user** I can *Enter my age**
+3.	As a **user** I can **Enter my name**
+4.	As a **user** I can **Play as many times as I want**
+5.	As a **user** I can **Take my time with the questions** as there **Is know timer**
 
 
 
