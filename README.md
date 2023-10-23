@@ -83,11 +83,49 @@ Tweet about the game: Time Travel on the Python Commmad Line
 ## Description
 
 
-## Usage
 
-Explain how to run and play the game.
+## How to Play the Time Travel Game
 
+The "Time Travel Game" is an interactive text-based adventure where you embark on a time-traveling journey filled with questions and riddles. Follow these steps to play the game and experience the adventure:
 
+1. **Prerequisites**: Make sure you have Python installed on your computer. You can download Python from [python.org](https://www.python.org/downloads/) if it's not already installed.
+
+2. **Clone or Download**: Clone the game repository to your local machine or download the game script from the repository.
+
+   ```shell
+   git clone https://github.com/Time-Travel-on-the-Python-Commmad-Line
+   ```
+
+3. **Navigate to the Game Directory**: Open your command prompt or terminal and change your working directory to the folder where the game script is located.
+
+   ```shell
+   cd Time-Travel-on-the-Python-Commmad-Line
+   ```
+
+4. **Start the Game**: Run the game script by executing the following command:
+
+   ```shell
+   python run.py
+   ```
+
+5. **Initial Input**: The game will start by displaying a stylish title and prompt you to enter your name. Type your name and press "Enter."
+
+6. **Age Validation**: You will then be prompted to enter your age. Make sure to enter a valid age (a positive integer). The game will ensure that your input is a valid number.
+
+7. **Game Introduction**: After entering your name and age, the game will welcome you to the Time Travel adventure. You'll be presented with a time machine and a series of mysterious time portals.
+
+8. **Answer Questions and Make Choices**: Your objective is to answer questions correctly to progress in the game. When you encounter a time portal, you have two choices:
+   - **A. Continue**: Choose to continue your adventure and answer the question associated with the portal. If you answer correctly, you advance in the game.
+   - **B. Try to Escape**: Choose to escape the portal. Be cautious, as escaping may come with consequences!
+
+9. **Completing the Game**: Continue to answer questions, make choices, and explore the time portals. Your goal is to answer all questions correctly and navigate through the portals to reach the end of the adventure. When you successfully complete the game, you will receive a congratulatory message.
+
+10. **Replay the Game**: If you'd like to replay the game, simply run the script again, and the adventure will start over.
+
+Enjoy the "Time Travel Game" and have fun solving riddles, making choices, and escaping the time warp. Explore the various outcomes and see if you can conquer the time-travel adventure. If you encounter any issues or have feedback, please feel free to share it with us through the repository's issue tracker.
+```
+
+This "How to Play" section provides users with a step-by-step guide on how to start and enjoy your game, making it easy for them to understand the gameplay mechanics and objectives.
 ## Apps Used
 
 | App           | Description                |
@@ -102,8 +140,86 @@ Explain how to run and play the game.
 ## Getting Started
 
 
-### Testing Carried Out 
 
+
+## Testing the Time Travel Game
+
+To ensure the "Time Travel Game" functions as intended, several tests were conducted to verify its correctness and robustness. Here are the test scenarios and their outcomes:
+
+### 1. User Input Validation
+
+**Scenario**: Ensure that the game correctly validates user input for name and age.
+
+**Test Steps**:
+1. Run the game and enter a valid name.
+2. Enter a non-integer value for age.
+3. Verify that the game prompts for a valid age.
+4. Enter a valid age.
+
+**Outcome**: The game should accept valid inputs and reject invalid ones, proceeding only when valid data is provided.
+
+### 2. Question-Answer Mechanism
+
+**Scenario**: Confirm that the game presents questions and checks answers.
+
+**Test Steps**:
+1. Play the game, ensuring that questions are presented.
+2. Answer all questions correctly.
+3. Answer at least one question incorrectly.
+
+**Outcome**: The game should continue when questions are answered correctly and restart when an incorrect answer is given.
+
+### 3. Time Portal Choices
+
+**Scenario**: Test the choices presented when encountering time portals.
+
+**Test Steps**:
+1. Play the game and reach a time portal.
+2. Choose to continue and answer the question correctly.
+3. Choose to continue and answer the question incorrectly.
+4. Choose to escape the time portal.
+
+**Outcome**: The game should respond appropriately to each choice, progressing when questions are answered correctly, restarting on incorrect answers, and ending when choosing to escape.
+
+### 4. Game Completion
+
+**Scenario**: Verify the game's completion when all questions are answered correctly.
+
+**Test Steps**:
+1. Play the game and answer all questions correctly.
+
+**Outcome**: The game should provide a "Congratulations" message and indicate successful completion.
+
+### 5. Error Handling
+
+**Scenario**: Test the game's response to unexpected input.
+
+**Test Steps**:
+1. Play the game and provide invalid choices or inputs.
+
+**Outcome**: The game should gracefully handle invalid input and display appropriate error messages.
+
+### 6. Replayability
+
+**Scenario**: Test the game's ability to restart and allow replay.
+
+**Test Steps**:
+1. Complete the game successfully.
+2. Choose to replay the game.
+
+**Outcome**: The game should restart, allowing users to play again.
+
+### 7. Performance and Resource Usage
+
+**Scenario**: Assess the game's performance and resource usage.
+
+**Test Steps**:
+1. Monitor the game's resource consumption while playing.
+2. Verify that the game runs smoothly without significant resource utilization.
+
+**Outcome**: The game should run without performance issues and use system resources efficiently.
+
+These tests were conducted to ensure the "Time Travel Game" works correctly and provides an engaging experience for players. If you encounter any issues or have suggestions for improvements, please feel free to submit them to the repository's issue tracker.
 
 
 
@@ -149,8 +265,9 @@ The following git commands were used throughout development to push code to the 
 Special thanks to:
 
 - [Geek for Geeks](https://www.geeksforgeeks.org/) for the `pyfiglet` module.
-- [Jamie O'Neill](https://www.linkedin.com/in/jamie2023/) (Code Institute cohort lead) for guidance and support throughout the project.
-
+- [Jamie O'Neill](https://www.linkedin.com/in/jamie2023/) (Code Institute cohort lead) for 
+- [Mentimeter](https://www.mentimeter.com) for more exciting quiz and interactive content!
+- [Freecodecamp.org](https://www.youtube.com/watch?v=rfscVS0vtbw&t=2305s) This video greatly improved my understanding of Python.
 
 
 

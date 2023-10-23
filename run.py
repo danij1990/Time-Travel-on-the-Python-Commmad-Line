@@ -2,8 +2,15 @@ import random
 # import pyfiglet module 
 import pyfiglet 
 
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
+
 result = pyfiglet.figlet_format("Time Travel", font = "digital" ) 
 print(result) 
+
+
+
 
 name = input("Enter your name: ")
 
@@ -40,8 +47,8 @@ def time_travel():
 
     questions = [
         {
-            "question": "What goes up but must come down?",
-            "choices": ["A Plane", "A Cat", "A Dog", "A Balloon"],
+            "question": "Which planet in the Milky Way is the hottest?",
+            "choices": ["Venus", "Mars", "Earth", "Neptune"],
             "correct_choice": "A",
             "adventure_route": "You see a time portal resembling a floating airplane. You board it and embark on a journey to a futuristic city."
         },
@@ -64,8 +71,8 @@ def time_travel():
             "adventure_route": "You come across a time portal resembling a grand piano. As you approach, the piano door opens, revealing a room with a treasure chest."
         },
         {
-            "question": "What is always in front of you but can't be seen?",
-            "choices": ["The Future", "The Past", "The Present", "Your Nose"],
+            "question": "What city is known as, The Eternal City?",
+            "choices": ["Dublin", "London", "Rome", "Liverpool"],
             "correct_choice": "C",
             "adventure_route": "You find a time portal surrounded by mist. As you walk through it, you enter a hidden garden full of wonders."
         }
