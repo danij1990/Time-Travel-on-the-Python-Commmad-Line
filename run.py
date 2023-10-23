@@ -1,15 +1,8 @@
 import random
 # import pyfiglet module 
 import pyfiglet 
-
-import colorama
-from colorama import Fore, Back, Style
-colorama.init()
-
 result = pyfiglet.figlet_format("Time Travel", font = "digital" ) 
 print(result) 
-
-
 
 
 name = input("Enter your name: ")

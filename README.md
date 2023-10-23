@@ -125,8 +125,6 @@ The "Time Travel Game" is an interactive text-based adventure where you embark o
 Enjoy the "Time Travel Game" and have fun solving riddles, making choices, and escaping the time warp. Explore the various outcomes and see if you can conquer the time-travel adventure. If you encounter any issues or have feedback, please feel free to share it with us through the repository's issue tracker.
 ```
 
-This "How to Play" section provides users with a step-by-step guide on how to start and enjoy your game, making it easy for them to understand the gameplay mechanics and objectives.
-## Apps Used
 
 ### Technologies Used
 
@@ -151,10 +149,6 @@ This project is built using a combination of technologies to facilitate developm
 - **CodeAnywhere**: CodeAnywhere is an integrated development environment (IDE) that provides a cloud-based coding environment accessible from anywhere. It was used for development, coding, and testing during the project's lifecycle.
 
 These technologies collectively ensure efficient development, version control, and deployment of this project.
-
-
-
-## Getting Started
 
 
 
@@ -240,10 +234,7 @@ These tests were conducted to ensure the "Time Travel Game" works correctly and 
 
 
 
-### Test Results 
-
-
-## Testing the Time Travel Game
+## Test Results 
 
 To ensure the "Time Travel Game" functions as intended, a series of tests were conducted to assess its accuracy and resilience. Here's a summary of the test scenarios and their outcomes:
 
