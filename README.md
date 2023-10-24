@@ -1,6 +1,4 @@
-# Time Travel on the Python Commmad Line 
-
-
+# Time Travel on the Python Command Line
 
 ## Time Travel Adventure Game Overview
 
@@ -60,29 +58,37 @@ The "Time Travel Adventure Game" offers a captivating blend of time travel, puzz
 
 **Join Us:**
 
-Ready to embark on an exciting journey through time? Join the Time Travel on the Python Commmad Line community and become a part of our time-traveling adventure!
+Ready to embark on an exciting journey through time? Join the Time Travel on the Python Command Line community and become a part of our time-traveling adventure!
 
-How to Get Involved
-Contribute to the Codebase: If you're passionate about game development, Python programming, or have creative ideas to enhance the gameplay, consider contributing to our open-source project on GitHub. Your contributions are highly valued!
+## How to Get Involved
 
-Fork the repository: Time-Travel-on-the-Python-Commmad-Line
-Make your improvements and enhancements.
-Submit a pull request to share your changes with the community.
-Report Bugs and Issues: Encountered a bug or have a suggestion for improvement? Let us know by opening an issue on GitHub. Your feedback helps us make the game better!
+### Contribute to the Codebase
 
-Open a New Issue
-Spread the Word: Share the Time-Travel-on-the-Python-Commmad-Line with your friends, family, and fellow gamers! Help us grow our community and bring more adventurers into the time-traveling fold.
+If you're passionate about game development, Python programming, or have creative ideas to enhance the gameplay, consider contributing to our open-source project on GitHub. Your contributions are highly valued!
 
-Tweet about the game: Time Travel on the Python Commmad Line
-### Flowchart
+1. Fork the repository: [Time-Travel-on-the-Python-Command-Line](https://github.com/Time-Travel-on-the-Python-Command-Line)
+2. Make your improvements and enhancements.
+3. Submit a pull request to share your changes with the community.
+
+### Report Bugs and Issues
+
+Encountered a bug or have a suggestion for improvement? Let us know by opening an issue on GitHub. Your feedback helps us make the game better!
+
+- Open a New Issue
+
+### Spread the Word
+
+Share the Time-Travel-on-the-Python-Command-Line with your friends, family, and fellow gamers! Help us grow our community and bring more adventurers into the time-traveling fold.
+
+- Tweet about the game: [Time Travel on the Python Command Line](#)
+
+## Flowchart
 
 ![Flowchart](assets/images/Flowchart.png)
 
-# Time Travel on the Python Commmad Line
+# Time Travel on the Python Command Line
 
 ## Description
-
-
 
 ## How to Play the Time Travel Game
 
@@ -92,21 +98,21 @@ The "Time Travel Game" is an interactive text-based adventure where you embark o
 
 2. **Clone or Download**: Clone the game repository to your local machine or download the game script from the repository.
 
-   ```shell
-   git clone https://github.com/Time-Travel-on-the-Python-Commmad-Line
-   ```
+    ```shell
+    git clone https://github.com/Time-Travel-on-the-Python-Command-Line
+    ```
 
 3. **Navigate to the Game Directory**: Open your command prompt or terminal and change your working directory to the folder where the game script is located.
 
-   ```shell
-   cd Time-Travel-on-the-Python-Commmad-Line
-   ```
+    ```shell
+    cd Time-Travel-on-the-Python-Command-Line
+    ```
 
 4. **Start the Game**: Run the game script by executing the following command:
 
-   ```shell
-   python run.py
-   ```
+    ```shell
+    python run.py
+    ```
 
 5. **Initial Input**: The game will start by displaying a stylish title and prompt you to enter your name. Type your name and press "Enter."
 
@@ -123,10 +129,8 @@ The "Time Travel Game" is an interactive text-based adventure where you embark o
 10. **Replay the Game**: If you'd like to replay the game, simply run the script again, and the adventure will start over.
 
 Enjoy the "Time Travel Game" and have fun solving riddles, making choices, and escaping the time warp. Explore the various outcomes and see if you can conquer the time-travel adventure. If you encounter any issues or have feedback, please feel free to share it with us through the repository's issue tracker.
-```
 
-
-### Technologies Used
+## Technologies Used
 
 | App           | Description                |
 | ------------- | -------------------------- |
@@ -134,9 +138,6 @@ Enjoy the "Time Travel Game" and have fun solving riddles, making choices, and e
 | GitHub        | Code hosting platform      |
 | CodeAnywhere  | Online code editor         |
 | Heroku        | Deployment platform        |
-
-
-## Technology Used
 
 This project is built using a combination of technologies to facilitate development, version control, and deployment. The following tools and platforms were used:
 
@@ -149,9 +150,6 @@ This project is built using a combination of technologies to facilitate developm
 - **CodeAnywhere**: CodeAnywhere is an integrated development environment (IDE) that provides a cloud-based coding environment accessible from anywhere. It was used for development, coding, and testing during the project's lifecycle.
 
 These technologies collectively ensure efficient development, version control, and deployment of this project.
-
-
-
 
 ## Testing the Time Travel Game
 
@@ -230,15 +228,14 @@ To ensure the "Time Travel Game" functions as intended, several tests were condu
 
 **Outcome**: The game should run without performance issues and use system resources efficiently.
 
-These tests were conducted to ensure the "Time Travel Game" works correctly and provides an engaging experience for players. If you encounter any issues or have suggestions for improvements, please feel free to submit them to the repository's issue tracker.
+These tests were conducted to ensure the "Time Travel Game" works correctly and provides an engaging experience for players. If you encounter any issues or have suggestions for improvements, please feel free to submit them to the project's issue tracker.
 
-
-
-## Test Results 
+## Test Results
 
 To ensure the "Time Travel Game" functions as intended, a series of tests were conducted to assess its accuracy and resilience. Here's a summary of the test scenarios and their outcomes:
 
 ### Test 1: User Input Validation
+
 **Scenario**: Ensure proper validation of user input for name and age.
 
 **Results**:
@@ -247,6 +244,7 @@ To ensure the "Time Travel Game" functions as intended, a series of tests were c
 - Valid age input: Accepted.
 
 ### Test 2: Question-Answer Mechanism
+
 **Scenario**: Confirm the game's question presentation and answer checking.
 
 **Results**:
@@ -255,6 +253,7 @@ To ensure the "Time Travel Game" functions as intended, a series of tests were c
 - Incorrect answer: Game restarts.
 
 ### Test 3: Time Portal Choices
+
 **Scenario**: Evaluate the game's responses to time portal choices.
 
 **Results**:
@@ -263,24 +262,28 @@ To ensure the "Time Travel Game" functions as intended, a series of tests were c
 - Choose to escape time portal: Game ends.
 
 ### Test 4: Game Completion
+
 **Scenario**: Verify game completion after answering all questions correctly.
 
 **Results**:
 - Game completion message: Displayed on success.
 
 ### Test 5: Error Handling
+
 **Scenario**: Test the game's response to unexpected input.
 
 **Results**:
 - Invalid choices or inputs: Gracefully handled with error messages.
 
 ### Test 6: Replayability
+
 **Scenario**: Assess the game's ability to restart and allow replay.
 
 **Results**:
 - Game restart: Successfully allows replay.
 
 ### Test 7: Performance and Resource Usage
+
 **Scenario**: Evaluate the game's performance and resource usage.
 
 **Results**:
@@ -289,25 +292,20 @@ To ensure the "Time Travel Game" functions as intended, a series of tests were c
 
 The "Time Travel Game" has undergone comprehensive testing to ensure its functionality and player engagement. If you encounter issues or have improvement suggestions, please feel free to submit them to the project's issue tracker.
 
-These summarized results provide a quick and clear overview of the testing outcomes for each scenario.
-
-
-
 ## User Experience
 
-- __Target Audience__
+- **Target Audience**
 
-  - This game is for all ages and can be played by anyone who wishes to take on the challange. 
+  - This game is for all ages and can be played by anyone who wishes to take on the challenge. 
 
 
- - __Players__
+ - **Players**
 
-1.	As a **user** I can **Answers the provided questions** to **complete the game**
-2.	As a **user** I can *Enter my age**
-3.	As a **user** I can **Enter my name**
-4.	As a **user** I can **Play as many times as I want**
-5.	As a **user** I can **Take my time with the questions** as there **Is know timer**
-
+1. As a **user**, I can **answer the provided questions** to **complete the game**.
+2. As a **user**, I can **enter my age**.
+3. As a **user**, I can **enter my name**.
+4. As a **user**, I can **play as many times as I want**.
+5. As a **user**, I can **take my time with the questions** as there **is no timer**.
 
 ### Development Process
 
@@ -369,7 +367,6 @@ This section provides insights into the development process of the "Time Travel 
 
 The "Time Travel Game" followed this structured development process to create a polished and engaging experience for players. We remain open to suggestions, bug reports, and collaboration to continue improving the game in the future.
 
-
 ## Deployment
 
 ### Version Control
@@ -382,9 +379,6 @@ The following git commands were used throughout development to push code to the 
 ```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
-### Deployment to 
-
-Certainly, here's a revised version of the Heroku deployment guide with slight changes in wording and layout:
 
 ## Heroku Deployment Guide
 
