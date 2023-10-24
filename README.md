@@ -116,7 +116,7 @@ The "Time Travel Game" is an interactive text-based adventure where you embark o
 
 5. **Initial Input**: The game will start by displaying a stylish title and prompt you to enter your name. Type your name and press "Enter."
 
-![Name Input](assets/images/wellcome%20screen%20.png)
+![Name Input](assets/images/wellcome%20screen%202.png)
 
 6. **Age Validation**: You will then be prompted to enter your age. Make sure to enter a valid age (a positive integer). The game will ensure that your input is a valid number.
 
@@ -486,6 +486,90 @@ Special thanks to:
 
 
 ## Bugs
+
+
+### Problem Description
+
+I encountered a bug where my loop wouldn't stop executing as expected. Here's the relevant code snippet: # Flag to track if all questions are answered
+    answered_all_questions = False
+    # Loop to play the game until all questions are answered
+    while not answered_all_questions:
+        options = {
+            1: "Go to the future",
+            2: "Go back in time",
+            3: "Stay in the present day",
+            4: "Your Birthday, but which one?"
+        }
+        for key, value in options.items():
+            print(f"{key}: {value}")
+        choice = input("Enter your choice: ")
+        # Checking the user's choice and calling corresponding functions
+        if choice == '1':
+            print("You have landed on a spaceship.")
+            explore_future()
+        elif choice == '2':
+            print("You venture deeper into the forest and encounter a wild animal.")
+            encounter_past()
+        elif choice == '3':
+            print("You are whisked off to a mountain range.")
+            today()
+        elif choice == '4':
+            print("You have landed at your 90th birthday party.")
+            your_birthday()
+        else:
+            print("Invalid choice. Please try again.")
+    # Printing congratulations when the game is completed
+    print("Congratulations! You have answered all the questions and completed the game.")
+# Function to explore the future
+def explore_future():
+    print("You find a safe on the spaceship.")
+    print("Do you want to open the safe?")
+    print("A. Yes")
+    print("B. No")
+    print("C. Continue to search")
+    choice = input("Enter your choice (A/B/C): ")
+    if choice.lower() == 'a':
+        if ask_question1("What goes up but must come down?", "A"):
+            print("Congratulations! You found a valuable treasure.")
+        else:
+            print("You answered the riddle incorrectly. Game over.")
+    elif choice.lower() == 'b':
+        print("You leave the cave and continue your time-traveling adventure.")
+    elif choice.lower() == 'c':
+        print("You found an old, dusty book. It has some interesting ancient stories.")
+    else:
+        print("Invalid choice. Please try again.")
+
+
+## Bug Resolution: Fixing the Loop Issue
+
+### Problem Description
+
+I initially encountered a bug where the game's loop wasn't functioning as expected. The issue manifested as the loop not stopping properly when all the questions were answered. This section explains how the problem was addressed and resolved.
+
+### Bug Analysis
+
+The bug was related to the previous implementation of the game. The loop structure was not effectively managing the progression of the game. If a player answered a question incorrectly, the loop was not properly handling this scenario, leading to an indefinite restart of the game.
+
+### Solution
+
+To resolve the loop issue, the code was refactored to create a more robust game structure. The primary changes and improvements included:
+
+- **Structured Game Logic**: The game logic was restructured into a clear and organized `time_travel` function, which served as the main driver of the game.
+
+- **Question Handling**: Questions and riddles were organized into a list of dictionaries, making it easier to manage and iterate through them.
+
+- **Correct Answer Tracking**: A list named `correct_answers` was introduced to track the player's progress by storing whether each question was answered correctly.
+
+- **Game Loop Enhancement**: The game loop was updated to ensure it only continues if the player answers the questions correctly. If an incorrect answer is given, the game restarts, but not indefinitely.
+
+- **User Choice Management**: The player's choices were clearly defined, allowing for a better understanding of the potential outcomes within the game.
+
+### Conclusion
+
+The bug was successfully resolved by restructuring the game code and enhancing the loop's control flow. These changes ensure that the game progresses as intended, and the loop stops when all questions are answered correctly. As a result, the player can now enjoy the Time Travel Game without the fear of getting stuck in an infinite loop.
+
+This section provides an overview of the bug and how it was addressed, enhancing the overall functionality and playability of the game.
 
 
 
