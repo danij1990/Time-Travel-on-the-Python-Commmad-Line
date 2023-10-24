@@ -116,15 +116,25 @@ The "Time Travel Game" is an interactive text-based adventure where you embark o
 
 5. **Initial Input**: The game will start by displaying a stylish title and prompt you to enter your name. Type your name and press "Enter."
 
+![Name Input](assets/images/wellcome%20screen%20.png)
+
 6. **Age Validation**: You will then be prompted to enter your age. Make sure to enter a valid age (a positive integer). The game will ensure that your input is a valid number.
 
+![Age Input](assets/images/age%20input.png)
+
 7. **Game Introduction**: After entering your name and age, the game will welcome you to the Time Travel adventure. You'll be presented with a time machine and a series of mysterious time portals.
+
+![Message](assets/images/message.png)
 
 8. **Answer Questions and Make Choices**: Your objective is to answer questions correctly to progress in the game. When you encounter a time portal, you have two choices:
    - **A. Continue**: Choose to continue your adventure and answer the question associated with the portal. If you answer correctly, you advance in the game.
    - **B. Try to Escape**: Choose to escape the portal. Be cautious, as escaping may come with consequences!
 
+![Escape message](assets/images/escape.png)
+
 9. **Completing the Game**: Continue to answer questions, make choices, and explore the time portals. Your goal is to answer all questions correctly and navigate through the portals to reach the end of the adventure. When you successfully complete the game, you will receive a congratulatory message.
+
+![Complete](assets/images/complete.png)
 
 10. **Replay the Game**: If you'd like to replay the game, simply run the script again, and the adventure will start over.
 
