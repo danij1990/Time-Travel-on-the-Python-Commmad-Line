@@ -86,6 +86,46 @@ Share the Time-Travel-on-the-Python-Command-Line with your friends, family, and 
 
 ![Flowchart](assets/images/Flowchart.png)
 
+Start
+|
+|--- Print "Time Travel" using pyfiglet
+|--- Input: Enter your name
+|--- Input: Enter your age
+|--- Validate age
+|    |
+|    |--- If age is valid, proceed
+|    |
+|    |--- If age is not valid, print error and re-enter age
+|
+|--- Print a welcome message for the Time Travel Game
+|--- Initialize questions and answers list
+|
+|--- Loop: While not all questions answered correctly
+|    |
+|    |--- For each question in the list
+|    |    |
+|    |    |--- Display adventure route and question
+|    |    |--- Present choices to continue or escape
+|    |    |
+|    |    |--- If player chooses to continue (A)
+|    |    |    |
+|    |    |    |--- Ask the question and present choices
+|    |    |    |--- Check if the answer is correct
+|    |    |    |--- If the answer is correct, move to the next question
+|    |    |    |
+|    |    |    |--- If the answer is wrong, print error, restart game, and break loop
+|    |    |
+|    |    |--- If player chooses to escape (B)
+|    |    |    |
+|    |    |    |--- Print "Game Over" and exit
+|    |    |
+|    |    |--- If an invalid choice, print "Game Over" and exit
+|
+|--- Print "You have escaped the loop! Well done!"
+|
+End
+
+
 # Time Travel on the Python Command Line
 
 ## Description
@@ -490,55 +530,9 @@ Special thanks to:
 
 ### Problem Description
 
-I encountered a bug where my loop wouldn't stop executing as expected. Here's the relevant code snippet: # Flag to track if all questions are answered
-    answered_all_questions = False
-    # Loop to play the game until all questions are answered
-    while not answered_all_questions:
-        options = {
-            1: "Go to the future",
-            2: "Go back in time",
-            3: "Stay in the present day",
-            4: "Your Birthday, but which one?"
-        }
-        for key, value in options.items():
-            print(f"{key}: {value}")
-        choice = input("Enter your choice: ")
-        # Checking the user's choice and calling corresponding functions
-        if choice == '1':
-            print("You have landed on a spaceship.")
-            explore_future()
-        elif choice == '2':
-            print("You venture deeper into the forest and encounter a wild animal.")
-            encounter_past()
-        elif choice == '3':
-            print("You are whisked off to a mountain range.")
-            today()
-        elif choice == '4':
-            print("You have landed at your 90th birthday party.")
-            your_birthday()
-        else:
-            print("Invalid choice. Please try again.")
-    # Printing congratulations when the game is completed
-    print("Congratulations! You have answered all the questions and completed the game.")
-# Function to explore the future
-def explore_future():
-    print("You find a safe on the spaceship.")
-    print("Do you want to open the safe?")
-    print("A. Yes")
-    print("B. No")
-    print("C. Continue to search")
-    choice = input("Enter your choice (A/B/C): ")
-    if choice.lower() == 'a':
-        if ask_question1("What goes up but must come down?", "A"):
-            print("Congratulations! You found a valuable treasure.")
-        else:
-            print("You answered the riddle incorrectly. Game over.")
-    elif choice.lower() == 'b':
-        print("You leave the cave and continue your time-traveling adventure.")
-    elif choice.lower() == 'c':
-        print("You found an old, dusty book. It has some interesting ancient stories.")
-    else:
-        print("Invalid choice. Please try again.")
+I encountered a bug where my loop wouldn't stop executing as expected. Here's the relevant code snippet: 
+
+![Bug](assets/images/bug.png)
 
 
 ## Bug Resolution: Fixing the Loop Issue
