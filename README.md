@@ -1,5 +1,5 @@
 # Time Travel on the Python Command Line
-
+![Responsive](assets/images/responsive.png)
 ## Time Travel Adventure Game Overview
 
 Welcome to the "Time Travel Adventure Game," an exciting text-based adventure that takes you on a journey through time and challenges your wits. In this game, you'll find yourself inside a mysterious time machine, facing a series of questions and riddles. Your mission is to answer them correctly and navigate through time portals to escape the time warp.
@@ -84,8 +84,31 @@ Share the Time-Travel-on-the-Python-Command-Line with your friends, family, and 
 
 ## Flowchart
 
-![Flowchart](assets/images/flowlow.png)
+![Flowchart](assets/images/start1.png)
+Of course, here's your flowchart in text with numbers but without lines at the side:
 
+1. Start
+2. Print "Time Travel" using pyfiglet.
+3. Input: Enter your name.
+4. Input: Enter your age
+5. Validate age
+   6. If age is valid, proceed
+   7. If the age is not valid, print the error and re-enter the age
+8. Print a welcome message for the Time Travel Game
+9. Initialize questions and answers list
+10. Loop: While not all questions answered correctly
+   11. For each question in the list
+   12. Display adventure route and question
+   13. Present choices to continue or escape
+   14. If the player chooses to continue (A)
+       15. Ask the question and present choices
+       16. Check if the answer is correct
+       17. If the answer is correct, move to the next question
+       18. If the answer is wrong, print the error, restart the game, and break the loop
+   19. If the player chooses to escape (B)
+   20. Print "Game Over" and exit
+   21. If an invalid choice, print "Game Over" and exit
+22. Print "You have escaped the loop! Well done!"
 
 
 # Time Travel on the Python Command Line

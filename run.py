@@ -1,9 +1,8 @@
 import random
 # import pyfiglet module 
-import pyfiglet 
-result = pyfiglet.figlet_format("Time Travel", font = "digital" ) 
-print(result) 
-
+import pyfiglet
+result = pyfiglet.figlet_format("Time Travel", font="digital")
+print(result)
 
 name = input("Enter your name: ")
 
@@ -19,7 +18,6 @@ while True:
 
 print(f"Hello {name}! You are {age} years old.")
 
-
 # Function to ask a question with multiple choices
 def ask_question(question, choices, correct_choice):
     print(question)
@@ -28,7 +26,6 @@ def ask_question(question, choices, correct_choice):
 
     user_choice = input("Your choice (A/B/C/D): ").upper()
     return user_choice == correct_choice
-
 
 # Function for the main time travel game
 def time_travel():
@@ -81,7 +78,7 @@ def time_travel():
             print(f"What do you want to do for question {i}?")
             print("A. Continue, Answers the questions to beat the portal ")
             print("B. Try to escape, but risk getting stuck")
-            
+
             portal_choice = input("Your choice (A/B): ").upper()
 
             if portal_choice == 'A':
@@ -102,7 +99,6 @@ def time_travel():
 
     # Printing congratulations when the game is completed
     print("You have escaped the loop! Well done!")
-
 
 if __name__ == "__main__":
     time_travel()
