@@ -85,7 +85,6 @@ Share the Time-Travel-on-the-Python-Command-Line with your friends, family, and 
 ## Flowchart
 
 ![Flowchart](assets/images/start1.png)
-Of course, here's your flowchart in text with numbers but without lines at the side:
 
 1. Start
 2. Print "Time Travel" using pyfiglet.
