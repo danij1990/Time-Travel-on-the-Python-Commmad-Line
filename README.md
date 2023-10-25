@@ -84,46 +84,8 @@ Share the Time-Travel-on-the-Python-Command-Line with your friends, family, and 
 
 ## Flowchart
 
-![Flowchart](assets/images/Flowchart.png)
+![Flowchart](assets/images/flowlow.png)
 
-Start
-|
-|--- Print "Time Travel" using pyfiglet
-|--- Input: Enter your name
-|--- Input: Enter your age
-|--- Validate age
-|    |
-|    |--- If age is valid, proceed
-|    |
-|    |--- If age is not valid, print error and re-enter age
-|
-|--- Print a welcome message for the Time Travel Game
-|--- Initialize questions and answers list
-|
-|--- Loop: While not all questions answered correctly
-|    |
-|    |--- For each question in the list
-|    |    |
-|    |    |--- Display adventure route and question
-|    |    |--- Present choices to continue or escape
-|    |    |
-|    |    |--- If player chooses to continue (A)
-|    |    |    |
-|    |    |    |--- Ask the question and present choices
-|    |    |    |--- Check if the answer is correct
-|    |    |    |--- If the answer is correct, move to the next question
-|    |    |    |
-|    |    |    |--- If the answer is wrong, print error, restart game, and break loop
-|    |    |
-|    |    |--- If player chooses to escape (B)
-|    |    |    |
-|    |    |    |--- Print "Game Over" and exit
-|    |    |
-|    |    |--- If an invalid choice, print "Game Over" and exit
-|
-|--- Print "You have escaped the loop! Well done!"
-|
-End
 
 
 # Time Travel on the Python Command Line
@@ -519,7 +481,7 @@ Remember that the direction of future development will depend on your goals, fee
 Special thanks to:
 
 - [Geek for Geeks](https://www.geeksforgeeks.org/) for the `pyfiglet` module.
-- [Jamie O'Neill](https://www.linkedin.com/in/jamie2023/) (Code Institute cohort lead) for 
+- [Jamie O'Neill](https://www.linkedin.com/in/jamie2023/) (Code Institute cohort lead)
 - [Mentimeter](https://www.mentimeter.com) for more exciting quiz and interactive content!
 - [Freecodecamp.org](https://www.youtube.com/watch?v=rfscVS0vtbw&t=2305s) This video greatly improved my understanding of Python.
 
